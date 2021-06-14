@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+ php:
+  build: .
+  volumes:
+    - C:/Users/rohit/Desktop/rohit_rec:/var/www/html
+  expose:
+    - 80
+  ports:
+    - 8080:80
